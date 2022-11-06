@@ -1,0 +1,43 @@
+/*@import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Roboto:400,500,700');*/
+
+/* 
+-- Google Fonts Family --
+font-family: 'Roboto', sans-serif;
+font-family: 'Heebo', sans-serif;
+*/
+
+/* reset css start */
+:root{
+  /*--main-color: #ee005f;*/
+  --main-color: #069;
+  --second-color: #34b5f7;
+  --heading-font: 'Heebo', sans-serif;
+  --heading-color: #222222;
+  --para-font: 'Roboto', sans-serif;
+  --para-color: #5d5d5d;
+}
+
+.div_lottery a {
+  font-family: var(--para-font);
+  font-weight: 500;
+}
+.div_lottery a, .div_lottery a:focus, .div_lottery a:hover {
+  text-decoration: none;
+  color: initial;
+}
+.div_lottery p, .div_lottery span, .div_lottery li {
+  margin: 0;
+  font-family: var(--para-font);
+  color: var(--para-color);
+  font-size: 16px;
+  font-weight: 400;
+}
+.div_lottery a, .div_lottery span {
+  display: inline-block;
+}
+
+.lottery_list ul, .lottery_list ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
